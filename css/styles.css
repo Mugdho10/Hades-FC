@@ -1,0 +1,174 @@
+body {
+  font-family: "Montserrat";
+}
+
+.navbar {
+  background-color: #003338;;
+}
+
+.container-fluid {
+  padding: 0 3% 0 3%;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-size: 3.6rem;
+  line-height: 1.5;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+  color: #fff;
+  padding-top: 1%;
+}
+
+p {
+  color: #fff;
+  padding-top: 1%;
+  font-size: 100%;
+}
+
+em {
+  color: #fff;
+  padding-top: 1%;
+}
+
+#title {
+  background-color: #003338;;
+}
+
+.title-logo {
+  width: 9rem;
+  padding-left: 5%;
+  padding-top: 1%;
+}
+
+/* Navigation bar */
+.navbar {
+  padding-left: 1%;
+  padding-bottom: 1%;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+  padding-left: 2%;
+  padding-top: 1%;
+}
+
+.navbar-nav {
+  padding-top: 0;
+  padding-left: 400px;
+  text-align: center;
+}
+
+.nav-item {
+  padding: 5px 10px 0;
+  text-align: center;
+}
+
+.nav-link {
+  ont-family: "Montserrat-light";
+  font-size: 1rem;
+}
+
+/* Feature Section 1 */
+
+
+.background {
+  padding-top: 10%;
+  padding-left: 0;
+  width: 100%;
+  background-color: #003338;;
+}
+
+
+/* Accessories Section */
+
+#accessories {
+  padding: 2% 4% 4%;
+  background: linear-gradient(360deg, #000, #015658);
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5% 5% 0 5%;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: bolder;
+  padding: 5%;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.Acc {
+  width: 100%;
+}
+
+/* Updates Section */
+
+#updates {
+  text-align: center;
+}
+
+#updates-carousel {
+  background-image: url(../UBG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 7% 15%;
+}
+
+.updates-image {
+  width: 98%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.update-text {
+  text-align: center;
+}
+
+.updates-title {
+  background-color: #000;
+  color: #fff;
+}
+
+
+
+
+@media (max-width: 600px) {
+
+  .title-logo {
+    width: 14%;
+  }
+
+  .navbar-nav {
+    padding-top: 0;
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  /* #accessories {
+    width: 5%;
+  }
+
+  h3 {
+    font-size: 5%;
+  }
+
+  .background {
+    padding-top: 15%;
+  } */
+}
